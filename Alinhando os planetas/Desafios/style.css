@@ -1,0 +1,46 @@
+*{
+    padding:0px;
+    margin: 0%;
+}header{
+   display: flex;
+   justify-content: center;
+}
+nav{
+
+    display: flex;
+    width: 90vw;
+    height: 6em;
+    justify-content: space-between;
+    background-color: #7B8A9A;
+   
+    
+
+    
+}
+ul{
+    display: flex;
+    margin-right: 3em;
+
+}
+li a{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 5em;
+    height: 1.5em;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+   
+}ul li{
+   
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    font-size: 0.8em;
+}.pontos{
+    background-color: aqua;
+    
+}

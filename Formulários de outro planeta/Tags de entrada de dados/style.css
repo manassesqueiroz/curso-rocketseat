@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+form{
+  width: 700px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+
+  background-color: #ffa500;
+}
+input {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+button {
+  margin-left: 70%;
+  font-size: 1.1em;
+}
+textarea {
+  width: 600px;
+  height: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

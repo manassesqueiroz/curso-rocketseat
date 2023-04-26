@@ -1,0 +1,35 @@
+<!--
+ Shorthand flex
+
+ 1 grow
+ 2 shrink
+ 3 basis
+ 
+ 
+Flex-grow flex-shrink flex-basis
+podem ter 1, 2 ou 3 valores
+-->
+
+<div class="box">
+  <div class="div">A</div>
+  <div class="div">B</div>
+  <div class="div">C</div>
+  <div class="div">D</div>
+</div>
+<style>
+  .box {
+    display: flex;
+    
+    border: 1px solid black;
+    width: 900px;
+  }
+  .box > div {
+    font-size: 3em;
+    border: 1px solid black;
+  }
+
+  .box > div:nth-child(2),
+  .box > div:nth-child(3) {
+    flex: 2 0 500px;
+  }
+</style>

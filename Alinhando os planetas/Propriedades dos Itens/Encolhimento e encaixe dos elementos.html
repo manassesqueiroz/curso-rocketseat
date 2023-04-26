@@ -1,0 +1,26 @@
+<div class="box">
+    <div class="div">A</div>
+    <div class="div">B</div>
+    <div class="div">C</div>
+    <div class="div">D</div>
+  </div>
+</body>
+<style>
+.box{
+    display: flex;
+    border: 1px solid black;
+    height: 800px;
+    flex-direction: column;
+
+}
+div{
+    flex-basis: 380px;
+    border: 1px solid black;
+    
+
+}
+.box div:nth-child(3),
+.box div:nth-child(2){
+    flex-shrink:9;
+}
+</style>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando ELementos</title>
+</head>
+<body>
+    <header>
+        <h1>Testando</h1>
+    </header>
+    <script>
+        //ADICIONAR ATRIBUTO   setAttribute(Atributo, Nome do atributo)    EX: setAttribute('id','header')  
+        
+        
+
+        //PEGAR ATRIBUTO getAttribute("ATRIBUTo")
+
+        //REMOVER ATRIBUTO removeAttribute('id')
+
+
+
+
+
+        const header = document.querySelector('header')
+        header.setAttribute('id','IDheader')
+
+
+        const headerID = document.querySelector('#IDheader')
+
+        console.log(headerID);
+
+        headerID.removeAttribute('id')
+
+        headerID.setAttribute('class', '1pinto')
+
+        
+
+
+        
+    </script>
+</body>
+</html>

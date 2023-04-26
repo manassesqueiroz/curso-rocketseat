@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro desafio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Zen+Dots&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #EAECF4;
+
+        }
+
+        header{
+            height: 100vh;
+        }
+        header h1{
+            font-family: 'Roboto', sans-serif;
+            margin: 1em 0em 0em 2em;
+            font-weight: bold;
+            
+        }
+        header p{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            text-align: center;
+        }
+        .box1{
+            flex-grow: 2;         
+            background-color: #6d6d6d;
+            align-items: center;
+            border-radius: 30px 0px;
+            
+
+        }.box2{
+            flex-grow:3;
+            display: flex;
+        }
+        section{
+            border-radius:30px 0px 30px  30px ;
+            background-color: #ffffff;
+            height: 8em;
+            ;
+            
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 70px;
+            box-shadow: 0.2em 0.3em 0.9em black;
+            
+        }
+        .logo{ 
+            display: flex;
+             align-items: center;
+             flex-grow: 2;
+             align-items: center;
+             padding-left: 1em;
+             align-items: center;
+             font-size: 2em;
+             font-family: Arial, Helvetica, sans-serif;
+
+             
+        }.navegacao{
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            font-family:'Roboto', sans-serif ;
+        }
+        ul a{
+            padding-right: .8rem;
+            font-size: 1em ;
+            text-decoration: none;
+            color: black;
+            
+        }
+        ul a:hover{
+            color: #adaeb4;
+
+        }
+        input{
+            margin-left: .8rem;
+            height: 2.3em;
+            width: 7em;
+            background-color:#000000 ;
+            border-radius: 1em;
+            color: #ffffff;
+            font-family:'Roboto', sans-serif ; 
+        } 
+        input:hover{
+            transition: 300ms;
+            background-color: #6d6d6d;
+        }
+        .box1{ 
+             text-align: center;
+            
+           
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>MENU NAVEGATION</h1>
+        <p>Window</p>
+        <section>
+            <div class="box1">&#9679 &#9679 &#9679</p></div>
+            <div class="box2">
+                <div class="logo"><img src="6294f7ec4609037792ef3711.png" alt="" width="70px" height="70px"></div>
+                <div class="navegacao">
+                    <ul><a href="#home">HOME</a></ul>
+                    <ul><a href="#home">ABOUT</a></ul>
+                    <ul><a href="#home">SERVICES</a></ul>
+                    <ul><a href="#home">TESTIMONIALS</a></ul>
+
+                    <input type="button" value="Contact">
+
+                </div>
+            </div>
+        </section>
+
+    </header>
+    
+</body>
+</html>

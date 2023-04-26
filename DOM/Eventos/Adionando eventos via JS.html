@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            opa meu chefia
+        </h1>
+    </header>  
+    
+    <script>
+        // Eventos
+        const h1 = document.querySelector('h1')
+        h1.addEventListener('mouseover',print)
+        function print(){
+        console.log('printando');
+
+
+        h1.onmouseover = print
+            function print() {
+                console.log('ola meu bhroder')
+                
+            }
+            
+        
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vomo la!!</title>
+    <style>
+      .active {
+        color: rgba(244, 199, 151, 0.856);
+      }
+      .fundo {
+        background-color: rgb(88, 67, 41);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hello world</h1>
+    </header>
+
+    <script>
+        const body = document.querySelector('body')
+        body.classList.add('fundo','active')
+        console.log(body.classList);
+        body.classList.toggle('active')
+        
+
+    </script>
+  </body>
+</html>

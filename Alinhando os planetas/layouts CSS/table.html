@@ -1,0 +1,29 @@
+tabela 
+td serve para elementos
+tr para as linhas da tabela
+
+EX
+<table>
+    <tr>
+        <th>DIA</th>
+        <th>MES</th>
+        <th>ANO</th>
+    </tr>
+    <tr>
+        <td>09</td>
+        <td>02</td>
+        <td>2029</td>
+    </tr>
+    <tr>
+        <td>01</td>
+        <td>02</td>
+        <td>2018</td>
+    </tr>
+</table>
+<style>
+tr td:nth-child(1)::after{
+    content: '/';
+    
+}tr td:nth-child(2)::after{
+    content: '/';}
+</style>
